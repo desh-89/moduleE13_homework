@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0">
+    <title>Portfolio</title>
+    <link rel="preload" as="font" href="fonts/BitterPro-ExtraLightItalic.ttf">
+    <link rel='stylesheet' href='/dist/main.css'>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <nav class="menu">
+                <button type="button" class="collapsible"><img id="img" src="svg/collapse.svg" alt=""></button>
+
+                <div class="content">
+                    <a href="#skill">Skill Bar</a>
+                    <a href="#about">About Me</a>
+                    <a href="#projects">My Projects</a>
+                    <a href="#social">Find Me</a>
+                </div>
+
+            </nav>
+            <nav class="menu-desktop">
+                <div class="links">
+                    <a href="#skill">Skill Bar</a>
+                    <a href="#about">About Me</a>
+                    <a href="#projects">My Projects</a>
+                    <a href="#social">Find Me</a>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="container-main-page">
+                <div class="block-text">
+                    <h1>I'm a Web Developer from Russia who changes this world with powerful projects</h1>
+                </div>
+                <div class="block-photo">
+                    <img src="img/pic-mobile.png" alt="">
+                </div>
+                <div class="block-photo-desktop">
+                    <img src="img/pic.png" alt="">
+                </div>
+                <div class="block-background-circles">
+                    <img src="svg/circ5.svg" alt="">
+                </div>
+            </div>
+
+            <h2 id="skill" class="h">Skill bar</h2>
+            <div class="container-bar container-text">
+
+                <div class="block1">
+                    <p>HTML</p>
+                    <div class="container">
+                        <div class="skills html">70%</div>
+                    </div>
+
+                    <p>CSS</p>
+                    <div class="container">
+                        <div class="skills css">50%</div>
+                    </div>
+
+                    <p>JavaScript</p>
+                    <div class="container">
+                        <div class="skills js">50%</div>
+                    </div>
+                </div>
+                <div class="block2">
+                    <p>Python</p>
+                    <div class="container">
+                        <div class="skills python">75%</div>
+                    </div>
+                </div>
+            </div>
+            <h2 id="projects" class="h">My Projects</h2>
+            <div class="container-projects container-text">
+
+                <div class="block-project prj1">
+                    <h3>Message Board</h3>
+                    <div class="text">
+                        <p>
+                            This project is message board. This is final project in learning of back-end.
+                        </p>
+                    </div>
+                    <a href="https://github.com/desh-89/MessageBoard" target="_blank" style="margin: 0 0 10px;">Link GitHub</a>
+                </div>
+                <!-- <hr> -->
+                <div class="block-project prj2">
+                    <h3>Telegram bot</h3>
+                    <div class="text">
+                        <p>
+                            My first telegram bot. I used Python.
+                        </p>
+                    </div>
+                    <img src="img/teleg.png" alt="">
+                    <a href="https://github.com/desh-89/SkillFactory-HW-CurrencyConverterBot" target="_blank"style="margin: 0 0 10px;">Link GitHub</a>
+                </div>
+            </div>
+
+            <h2 id="about" class="h">About me</h2>
+            <div class="container-about">
+                <div class="block-about-photo">
+                    <img src="img/photo-about.png" alt="">
+                </div>
+                <div class="block-about-text text">
+                    <p>
+                       My name is Denis. I'm a beginner programmer with great interest. I'm also interested in Quality Assurance and System Administration. I continue improving and deepening my knowledge in IT and the direction I study now is FullStack Python Web developer.
+                    </p>
+                </div>
+            </div>
+
+        </main>
+        <hr>
+        <footer>
+
+            <h2 id="social" class="h">Find me</h2>
+            <div class="container-text">
+
+                <div class="container-flex">
+                    <a href="https://www.instagram.com/desh_89/">Instagram</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src='/dist/main.js'></script>
+</body>
+</html>
